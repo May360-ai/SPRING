@@ -1,0 +1,15 @@
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\config\WebConfig.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\controller\AuthorController.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\controller\BookController.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\controller\HomeController.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\entity\Author.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\entity\Book.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\exception\GlobalExceptionHandler.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\exception\ResourceNotFoundException.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\LibreriaApplication.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\repository\AuthorRepository.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\repository\BookRepository.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\service\AuthorService.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\service\BookService.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\service\impl\AuthorServiceImpl.java
+C:\Users\maya2\Documents\SPRING\lib\src\main\java\com\uta\gestor_libreria\service\impl\BookServiceImpl.java

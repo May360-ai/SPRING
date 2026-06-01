@@ -1,0 +1,97 @@
+<div th:fragment="authorModal">
+    <div class="modal fade" id="authorModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="authorModalLabel">Nuevo Autor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="authorForm">
+                        <input type="hidden" id="authorEditMode" value="false">
+                        <div class="mb-3">
+                            <label for="authorId" class="form-label">ID</label>
+                            <input type="text" class="form-control" id="authorId" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="authorNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="authorNombre" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="authorApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="authorApellido" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="authorTelefono" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="authorTelefono" maxlength="20" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" id="btnSaveAuthor" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:fragment="bookModal">
+    <div class="modal fade" id="bookModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookModalLabel">Nuevo Libro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="bookForm">
+                        <input type="hidden" id="bookEditMode" value="false">
+                        <div class="mb-3">
+                            <label for="bookId" class="form-label">ID</label>
+                            <input type="text" class="form-control" id="bookId" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="bookTitulo" class="form-label">Título</label>
+                            <input type="text" class="form-control" id="bookTitulo" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="bookPaginas" class="form-label">Páginas</label>
+                            <input type="text" class="form-control" id="bookPaginas" maxlength="20" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="bookAuthor" class="form-label">Autor</label>
+                            <select class="form-select" id="bookAuthor" required>
+                                <option value="">Seleccione un autor</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" id="btnSaveBook" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:fragment="deleteModal">
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmar Eliminación</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Está seguro de que desea eliminar este elemento?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" id="btnConfirmDelete" class="btn btn-danger">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+/* styles.css - Minimalista para funcionalidad */
+
+/* Mantenemos solo el resaltado de fila para que se vea la selección */
+.table-active {
+    cursor: pointer;
+}
+
+.validation-error {
+    color: red;
+    font-size: 0.8em;
+}

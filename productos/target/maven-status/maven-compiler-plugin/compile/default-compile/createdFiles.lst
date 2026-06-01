@@ -1,0 +1,15 @@
+com\uta\gestor_productos\exception\GlobalExceptionHandler.class
+com\uta\gestor_productos\repository\CategoryRepository.class
+com\uta\gestor_productos\service\impl\CategoryServiceImpl.class
+com\uta\gestor_productos\controller\CategoryController.class
+com\uta\gestor_productos\service\CategoryService.class
+com\uta\gestor_productos\exception\ResourceNotFoundException.class
+com\uta\gestor_productos\repository\ProductRepository.class
+com\uta\gestor_productos\controller\ProductController.class
+com\uta\gestor_productos\controller\HomeController.class
+com\uta\gestor_productos\service\ProductService.class
+com\uta\gestor_productos\config\WebConfig.class
+com\uta\gestor_productos\entity\Product.class
+com\uta\gestor_productos\service\impl\ProductServiceImpl.class
+com\uta\gestor_productos\entity\Category.class
+com\uta\gestor_productos\GestorProductosApplication.class

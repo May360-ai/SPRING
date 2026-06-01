@@ -1,0 +1,15 @@
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\config\WebConfig.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\controller\CategoryController.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\controller\HomeController.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\controller\ProductController.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\entity\Category.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\entity\Product.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\exception\GlobalExceptionHandler.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\exception\ResourceNotFoundException.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\GestorProductosApplication.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\repository\CategoryRepository.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\repository\ProductRepository.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\service\CategoryService.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\service\impl\CategoryServiceImpl.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\service\impl\ProductServiceImpl.java
+C:\Users\maya2\Documents\SPRING\productos\src\main\java\com\uta\gestor_productos\service\ProductService.java
